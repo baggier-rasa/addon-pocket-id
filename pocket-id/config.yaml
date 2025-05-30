@@ -1,18 +1,18 @@
 ---
 name: Pocket ID
-version: dev
+version: 1.0.1
 slug: pocket-id
 description: Simple OIDC provider for passkey authentication
-url: https://github.com/einschmidt/addon-pocket-id
+url: https://github.com/baggier-rasa/addon-pocket-id
 arch:
   - amd64
   - aarch64
 options:
-  log_level: "info"
+  log_level: info
   APP_URL: http://localhost
   TRUST_PROXY: false
 schema:
-  log_level: "list(debug|info|warn|error)"
+  log_level: list(debug|info|error)
   APP_URL: str
   TRUST_PROXY: bool
   MAXMIND_LICENSE_KEY: str?
