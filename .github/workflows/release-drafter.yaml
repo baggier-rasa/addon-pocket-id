@@ -9,5 +9,11 @@ on:
   workflow_call:
     
 jobs:
-  workflows:
-    uses: baggier-rasa/addon-pocket-id/.github/workflows/release-drafter.yaml@main
+  update_release_draft:
+    name: ✏️ Draft release
+    runs-on: ubuntu-latest
+    steps:
+      - name: 🚀 Run Release Drafter
+        uses: release-drafter/release-drafter@v6.1.0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
