@@ -6,7 +6,8 @@ on:
   push:
     branches:
       - main
-
+  workflow_call:
+    
 jobs:
   workflows:
     uses: baggier-rasa/addon-pocket-id/.github/workflows/release-drafter.yaml@main
