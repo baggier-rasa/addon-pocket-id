@@ -1,6 +1,6 @@
 ---
 name: Pocket ID
-version: 1.0.2
+version: dev
 slug: pocket-id
 description: Simple OIDC provider for passkey authentication
 url: https://github.com/baggier-rasa/addon-pocket-id
