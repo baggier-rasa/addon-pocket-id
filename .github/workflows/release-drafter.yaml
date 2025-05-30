@@ -9,4 +9,4 @@ on:
 
 jobs:
   workflows:
-    uses: baggier-rasa/workflows/.github/workflows/release-drafter.yaml@main
+    uses: baggier-rasa/.github/workflows/release-drafter.yaml@main
